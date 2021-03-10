@@ -21,6 +21,8 @@ if __name__ == '__main__':
    session.add(interprete4)
    session.commit()
 
+
+
    # Crear albumes
    album1 = Album(titulo = "Latin Jazz Compilation", ano = 2021, descripcion = "Album original", medio = Medio.DISCO)
    album2 = Album(titulo = "Bandas sonoras famosas", ano = 2021, descripcion = "Compilacion", medio = Medio.DISCO)
